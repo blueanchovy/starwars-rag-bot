@@ -6,7 +6,9 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const client = new DataAPIClient(process.env.ASTRA_DB_APPLICATION_TOKEN);
+const client = new DataAPIClient(process.env.ASTRA_DB_APPLICATION_TOKEN, {
+  httpOptions: { client: "fetch" },
+});
 const db = client.db(process.env.ASTRA_DB_API_ENDPOINT, {
   namespace: process.env.ASTRA_DB_NAMESPACE,
 });

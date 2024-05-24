@@ -1,9 +1,10 @@
 "use client";
 import { useChat } from "ai/react";
 import starLogo from "./assets/starLogo.svg";
-
 import Image from "next/image";
 import LoadingBubble from "./components/LoadingBubble";
+import PromptSuggestionRow from "./components/PromptSuggestionRow";
+import { Message } from "ai";
 
 const Home = () => {
   const {
@@ -16,7 +17,15 @@ const Home = () => {
   } = useChat();
 
   const noMessages = !messages || messages.length === 0;
-  //   const noMessages = false;
+
+  const handlePrompt = (prompt: string) => {
+    const msg: Message = {
+      id: crypto.randomUUID(),
+      content: prompt,
+      role: "user",
+    };
+    append(msg);
+  };
 
   return (
     <main>
@@ -42,12 +51,10 @@ const Home = () => {
               answers.
             </p>
             <br />
-            {/* <PromptSuggestionRow /> */}
+            <PromptSuggestionRow onPromptClick={handlePrompt} />
           </>
         ) : (
-          <>
-            <LoadingBubble />
-          </>
+          <>{isLoading && <LoadingBubble />}</>
         )}
       </section>
       <form onSubmit={handleSubmit}>

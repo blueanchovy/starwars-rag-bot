@@ -32,16 +32,7 @@ const Home = () => {
     <main>
       <div>
         <Image src={starLogo} width="60" height="45" alt="star" />
-        <span
-          style={{
-            fontSize: "60px",
-            fontWeight: "bold",
-            fontFamily: "monospace sans-serif",
-            lineHeight: "80px",
-          }}
-        >
-          StarWarsGPT
-        </span>
+        <span className="title">StarWarsGPT</span>
       </div>
       <section className={noMessages ? "" : "populated"}>
         {noMessages ? (

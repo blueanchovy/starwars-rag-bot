@@ -28,6 +28,14 @@ main {
   color: #383838;
 }
 
+@media (max-width: 767px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+}
+
 section {
   width: 100%;
 }
@@ -38,6 +46,22 @@ section.populated {
   flex-direction: column;
   justify-content: flex-start;
   overflow: auto;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: monospace sans-serif;
+  line-height: 80px;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: monospace sans-serif;
+    line-height: 40px;
+  }
 }
 
 .starter-text {
@@ -51,7 +75,7 @@ form {
   border-top: #828282 solid 2px;
   padding-top: 20px;
   /* border-radius: 0 0 10px 10px; */
-  overflow: hidden;
+  overflow: auto;
 }
 
 input.question-box {
@@ -70,6 +94,19 @@ input[type="submit"] {
   background-color: #a92525;
   font-size: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  input {
+    margin: 0 auto;
+  }
+  input.question-box {
+    width: 70%;
+  }
+
+  input[type="submit"] {
+    width: auto;
+  }
 }
 
 input:focus {

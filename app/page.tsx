@@ -5,6 +5,7 @@ import Image from "next/image";
 import LoadingBubble from "./components/LoadingBubble";
 import PromptSuggestionRow from "./components/PromptSuggestionRow";
 import { Message } from "ai";
+import Bubble from "./components/Bubble";
 
 const Home = () => {
   const {
@@ -30,13 +31,13 @@ const Home = () => {
   return (
     <main>
       <div>
-        <Image src={starLogo} width="80" height="60" alt="star" />
+        <Image src={starLogo} width="60" height="45" alt="star" />
         <span
           style={{
-            fontSize: "80px",
+            fontSize: "60px",
             fontWeight: "bold",
             fontFamily: "monospace sans-serif",
-            lineHeight: "140px",
+            lineHeight: "80px",
           }}
         >
           StarWarsGPT
@@ -54,7 +55,12 @@ const Home = () => {
             <PromptSuggestionRow onPromptClick={handlePrompt} />
           </>
         ) : (
-          <>{isLoading && <LoadingBubble />}</>
+          <>
+            {messages?.map((message, index) => (
+              <Bubble key={index} message={message} />
+            ))}
+            {isLoading && <LoadingBubble />}
+          </>
         )}
       </section>
       <form onSubmit={handleSubmit}>

@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
     const latestMessage = messages[messages?.length - 1]?.content;
 
-    const docContext = "";
+    let docContext = "";
     const { data } = await openai.embeddings.create({
       input: latestMessage,
       model: "text-embedding-ada-002",
@@ -36,8 +36,29 @@ export async function POST(req: Request) {
 
     const documents = await cursor.toArray();
 
-    console.log(documents);
+    docContext = `
+    START CONTEXT
+    ${documents?.map((doc) => doc.description).join("\n")}
+    END CONTEXT
+    `;
+
+    const RAGprompt = [
+      {
+        role: "system",
+        content: `You are an AI assistant answering questions about Star Wars. Format responses using markdown where applicable. ${docContext} If the answer is not provided in the context, the AI assistant will say, "I'm sorry, I don't know the answer."`,
+      },
+    ];
+
+    const response = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo",
+      stream: true,
+      messages: [...RAGprompt, ...messages],
+    });
+
+    const stream = OpenAIStream(response);
+
+    return new StreamingTextResponse(stream);
   } catch (e) {
-    console.log(e);
+    throw e;
   }
 }

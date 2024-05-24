@@ -23,7 +23,7 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 14px;
   box-sizing: border-box;
   color: #383838;
 }
@@ -110,4 +110,27 @@ input:focus {
   color: #383838;
   box-shadow: #959da533 0 8px 24px;
   cursor: pointer;
+}
+
+.bubble {
+  margin: 8px;
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  color: #383838;
+  box-shadow: #959da533 0 8px 24px;
+  width: max-content;
+  max-width: 80%;
+  text-align: left;
+}
+
+.bubble.user {
+  border-radius: 20px 20px 0px 20px;
+  background-color: #e1f4ff;
+  margin-left: auto;
+}
+.bubble.assistant {
+  border-radius: 20px 20px 20px 0px;
+  background-color: #dce7ff;
+  margin-right: auto;
 }

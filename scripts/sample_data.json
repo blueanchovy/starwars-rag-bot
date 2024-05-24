@@ -8,5 +8,245 @@
     "id": 2,
     "name": "Darth Vader",
     "description": "Darth Vader is a character in the Star Wars franchise created by George Lucas. He is the primary antagonist of the original film trilogy and, as Anakin Skywalker, is the protagonist of the prequel trilogy. Born into slavery, he eventually becomes a powerful Jedi.[1] He is lured to the dark side of the Force by Chancellor Palpatine, and transforms from Anakin into the Sith Lord Darth Vader. After being severely wounded in a lightsaber battle, he becomes a cyborg. He is the husband of Padmé Amidala, the father of Luke Skywalker and Leia Organa Solo, and the grandfather of Ben Solo. David Prowse physically portrays Vader in the original trilogy, while James Earl Jones provides his voice in all of the films and some television series. Jake Lloyd and Hayden Christensen portray Anakin in the prequel trilogy, and Christensen also plays him in the series Obi-Wan Kenobi (2022) and Ahsoka (2023). In the standalone film Rogue One (2016), Vader is portrayed by Spencer Wilding and Daniel Naprous. The character also appears in novels, comics, and video games. He has become an iconic villain of cinema."
+  },
+  {
+    "id": 3,
+    "name": "Leia Organa Solo",
+    "description": "Princess Leia Organa, later General Leia Organa Solo, is a central character in the Star Wars franchise. Played by Carrie Fisher, she appears in all six films of the Skywalker saga, as well as in the animated series Star Wars: The Clone Wars and Star Wars Rebels. A strong leader and unwavering defender of freedom, Leia is a pivotal figure in the Rebel Alliance and the New Republic."
+  },
+  {
+    "id": 4,
+    "name": "Han Solo",
+    "description": "Han Solo is a fictional character in the Star Wars franchise. Introduced in Star Wars (1977), he is a smuggler, freighter captain, and occasional scoundrel who, along with his Wookiee copilot Chewbacca, is initially motivated by personal gain. He is drawn into the Rebel Alliance by Luke Skywalker and Obi-Wan Kenobi and becomes a pivotal figure in the Galactic Civil War. Portrayed by Harrison Ford in the original and sequel trilogies, Solo is a witty rogue with a cynical attitude who becomes a reluctant hero."
+  },
+  {
+    "id": 5,
+    "name": "Chewbacca",
+    "description": "Chewbacca, also known as Chewie, is a fictional Wookiee character in the Star Wars franchise. A Wookiee is a tall, hairy bipedal species known for their strength, loyalty, and technological skills. Chewbacca is the co-pilot and lifelong friend of Han Solo. He is known for his roars and growls, which are mostly Chewbacca's own language (Shyriiwook) with some roars dubbed in by sound designers. Chewbacca appears in all Star Wars films except for The Force Awakens, where he has a small cameo at the very end. He is portrayed by Peter Mayhew in the original trilogy and the first half of Revenge of the Sith, with Joonas Suotamo taking over for the remainder of that film and all subsequent appearances."
+  },
+  {
+    "id": 6,
+    "name": "Darth Sidious/Emperor Palpatine",
+    "description": "Darth Sidious, also known as Senator Palpatine and Emperor Palpatine, is a fictional character in the Star Wars franchise. He is the main antagonist of the saga, serving as the ultimate evil orchestrating events from the shadows. Palpatine is a Sith Lord who plays both sides of the political spectrum, rising to power as Supreme Chancellor of the Republic before declaring himself Emperor of the Galactic Empire. He is portrayed by Ian McDiarmid in all nine films of the Skywalker saga."
+  },
+  {
+    "id": 7,
+    "name": "Obi-Wan Kenobi",
+    "description": "Obi-Wan Kenobi is a fictional character in the Star Wars franchise. A wise and powerful Jedi Master, he guides Anakin Skywalker as his Padawan learner. After Anakin's fall to the dark side, Obi-Wan becomes a hermit, watching over Luke Skywalker on Tatooine. Obi-Wan is portrayed by Alec Guinness in the original trilogy and by Ewan McGregor in the prequel trilogy and the Disney+ series Kenobi (2022)."
+  },
+  {
+    "id": 8,
+    "name": "Yoda",
+    "description": "Yoda is a fictional character in the Star Wars franchise. A small, old and powerful Jedi Master and teacher, Yoda is a central figure in the prequel and original trilogies. He trains Luke Skywalker in the ways of the Force. Despite his diminutive stature, Yoda is a powerful Force user and a legendary Jedi Grand Master. Yoda is a CGI character voiced by Frank Oz in the prequel and original trilogies."
+  },
+  {
+    "id": 9,
+    "name": "R2-D2",
+    "description": "R2-D2, or Artoo as he is often called, is an astromech droid character in the Star Wars franchise. A loyal and resourceful droid, R2-D2 plays a pivotal role in galactic events throughout the saga. He is often paired with his counterpart protocol droid C-3PO. R2-D2 appears in all nine Skywalker saga films."
+  },
+  {
+    "id": 10,
+    "name": "C-3PO",
+    "description": "C-3PO, or Threepio as he is sometimes called, is a protocol droid character in the Star Wars franchise.  Built by Anakin Skywalker on Tatooine, C-3PO is fluent in over six million forms of communication, making him invaluable for translation and etiquette.  Despite his extensive knowledge, C-3PO can be naive and often worries excessively.  He is frequently paired with his counterpart astromech droid R2-D2, and together they become embroiled in galactic events throughout the saga.  C-3PO is known for his golden plating and distinctive bipedal form.  He is portrayed by Anthony Daniels in all eleven Star Wars films, as well as in the animated series and various other media."
+  },
+  {
+    "id": 11,
+    "name": "The Force",
+    "description": "The Force is a mystical and omnipresent energy field in the Star Wars universe. It binds all living things together and plays a significant role in the lives of Jedi and Sith. Those who are strong with the Force can use it to influence the physical world and possess incredible powers."
+  },
+  {
+    "id": 12,
+    "name": "Lightsaber",
+    "description": "A lightsaber is an elegant weapon from a more civilized age. It is a weapon used by Jedi and Sith. It is a plasma blade powered by a kyber crystal and emitting a characteristic hum. Lightsabers are capable of deflecting blaster fire and cutting through most substances."
+  },
+  {
+    "id": 13,
+    "name": "Millennium Falcon",
+    "description": "Heavily modified YT-1300 light freighter Corellian freighter captained by Han Solo and Chewbacca. The Millennium Falcon is known for its speed and agility, despite its ramshackle appearance. It plays a crucial role in many Rebel victories throughout the Galactic Civil War."
+  },
+  {
+    "id": 14,
+    "name": "Death Star",
+    "description": "The Death Star is a fictional space station and superweapon featured in the Star Wars franchise. It is the ultimate weapon of the Galactic Empire, capable of destroying entire planets with a single blast. The destruction of both Death Stars is a major turning point in the Rebel Alliance's fight against the Empire."
+  },
+  {
+    "id": 15,
+    "name": "Droid",
+    "description": "Droids are a wide variety of robots used throughout the Star Wars galaxy for a multitude of purposes. There are many different types of droids, each with their own specialization, such as astromech droids for starship maintenance, protocol droids for communication, and battle droids for combat."
+  },
+  {
+    "id": 16,
+    "name": "Jedi",
+    "description": "The Jedi are an ancient peacekeeping order of Force-sensitive warriors and diplomats. They strive to bring balance and order to the galaxy by using the light side of the Force. The Jedi Order is nearly wiped out by Order 66, a betrayal orchestrated by Emperor Palpatine."
+  },
+  {
+    "id": 17,
+    "name": "Sith",
+    "description": "The Sith are ancient enemies of the Jedi. They embrace the dark side of the Force, which is fueled by anger, hatred, and fear. The Sith operate according to the Rule of Two, where only a Master and an Apprentice exist at any given time."
+  },
+  {
+    "id": 18,
+    "name": "Tatooine",
+    "description": "Tatooine is a fictional desert planet featured prominently in the Star Wars franchise. It is a harsh and unforgiving world, home to moisture farms and various Jawas and Tusken Raiders. Luke Skywalker spends his formative years on Tatooine."
+  },
+  {
+    "id": 19,
+    "name": "Wookiee",
+    "description": "Wookiees are a tall, hairy bipedal species known for their strength, loyalty, and technological skills. Chewbacca is the most famous Wookiee character in Star Wars."
+  },
+  {
+    "id": 20,
+    "name": "Clone Wars",
+    "description": "The Clone Wars is a period of galactic warfare between the Galactic Republic and the Separatist movement. The war is fought primarily by clone troopers created by the Kaminoans for the Republic."
+  },
+  {
+    "id": 21,
+    "name": "Mandalorian",
+    "description": " Mandalorians are a proud warrior culture known for their beskar armor and fighting skills. Jango Fett and Boba Fett are some of the most well-known Mandalorians. The Disney+ series The Mandalorian follows a Mandalorian bounty hunter and his adventures protecting Grogu, a child of the same species as Yoda."
+  },
+  {
+    "id": 22,
+    "name": "Jedi Knight",
+    "description": "A Jedi Knight is a highly trained Jedi who has completed their Padawan training. Jedi Knights are guardians of peace and justice in the galaxy, wielding lightsabers and using the Force to protect the innocent."
+  },
+  {
+    "id": 23,
+    "name": "Padawan",
+    "description": "A Padawan is a Jedi apprentice who is learning the ways of the Force from a Jedi Master. Luke Skywalker was Obi-Wan Kenobi's Padawan, and Ahsoka Tano was Anakin Skywalker's Padawan."
+  },
+  {
+    "id": 24,
+    "name": "The Force Awakens",
+    "description": "Star Wars: Episode VII - The Force Awakens is a 2015 space opera film directed by J.J. Abrams. It is the first installment in the Star Wars sequel trilogy, following the original trilogy. The film introduces Rey, a scavenger on Jakku, Finn, a defecting Stormtrooper, Poe Dameron, a Resistance pilot, and Kylo Ren, a dark warrior tempted by the dark side of the Force."
+  },
+  {
+    "id": 25,
+    "name": "The Last Jedi",
+    "description": "Star Wars: Episode VIII - The Last Jedi is a 2017 space opera film written and directed by Rian Johnson. It is the second installment in the sequel trilogy. The film follows Rey as she continues her Jedi training under Luke Skywalker and the Resistance as they fight against the First Order."
+  },
+  {
+    "id": 26,
+    "name": "The Rise of Skywalker",
+    "description": "Star Wars: Episode IX - The Rise of Skywalker is a 2019 space opera film written and directed by J.J. Abrams. It is the final installment in the sequel trilogy. The film follows Rey as she confronts the final threat of the Sith and the return of Emperor Palpatine."
+  },
+  {
+    "id": 27,
+    "name": "Stormtrooper",
+    "description": "Stormtroopers are elite shock troopers of the Galactic Empire and the First Order. They are recognizable by their white armor. Stormtroopers are known for their loyalty and discipline, but their marksmanship is often comical."
+  },
+  {
+    "id": 28,
+    "name": "X-wing",
+    "description": "X-wings are starfighters used by the Rebel Alliance and the Resistance in their fight against the Galactic Empire and the First Order. X-wings are known for their twin ion engines and four laser cannons, making them versatile and powerful starfighters."
+  },
+  {
+    "id": 29,
+    "name": "TIE Fighter",
+    "description": "TIE fighters are starfighters used by the Galactic Empire and the First Order. TIE fighters are mass-produced and expendable, but their large numbers and swarming tactics can overwhelm their enemies."
+  },
+  {
+    "id": 30,
+    "name": "The Old Republic",
+    "description": "The Old Republic is a galactic government that existed thousands of years before the events of the Skywalker saga. The Jedi Order served as guardians of peace during the Old Republic's reign."
+  },
+  {
+    "id": 31,
+    "name": "Ewoks",
+    "description": "Ewoks are small, furry, primitive humanoids native to the forest moon of Endor. Despite their seemingly harmless appearance, Ewoks are skilled warriors and played a crucial role in the Rebel Alliance's victory at the Battle of Endor."
+  },
+  {
+    "id": 32,
+    "name": "Jabba the Hutt",
+    "description": "Jabba the Hutt is a Hutt crime lord who rules over Tatooine's underworld. He is a powerful and ruthless gangster known for his smuggling operations and sadistic tendencies. Han Solo has a notorious run-in with Jabba in Episode VI: Return of the Jedi."
+  },
+  {
+    "id": 33,
+    "name": "Lightsaber Duel",
+    "description": "A lightsaber duel is a combat fight between two or more Force-wielders using lightsabers. These duels are often intense and showcase the mastery of lightsaber combat and the Force. Iconic lightsaber duels include Luke Skywalker vs. Darth Vader and Obi-Wan Kenobi vs. Anakin Skywalker."
+  },
+  {
+    "id": 34,
+    "name": "The Mandalorian Creed",
+    "description": "The Mandalorian Creed is a set of principles that guided Mandalorian culture. It emphasized concepts like honor, loyalty, and solidarity. The creed varied slightly between different Mandalorian clans."
+  },
+  {
+    "id": 35,
+    "name": "Droids Rights Movement",
+    "description": "The Droids Rights Movement is a fictional movement within the Star Wars universe that advocates for the rights and freedoms of droids. Some characters, like C-3PO, believe droids deserve more than just servitude."
+  },
+  {
+    "id": 36,
+    "name": "Jedi Temple",
+    "description": "The Jedi Temple was the headquarters of the Jedi Order located on the galactic capital planet of Coruscant. It housed training facilities, libraries, and archives containing knowledge about the Force and the Jedi Order's history. The temple was destroyed by the clone troopers during Order 66."
+  },
+  {
+    "id": 37,
+    "name": "The Senate",
+    "description": "The Senate was the galactic legislative body of the Republic. It was a place for representatives from various star systems to discuss and vote on laws and policies. Palpatine manipulated the Senate to gain power and eventually transform the Republic into the Empire."
+  },
+  {
+    "id": 38,
+    "name": "The Force Ghost",
+    "description": "A Force ghost is the manifestation of a deceased Force-sensitive being. These beings can communicate with the living and appear as translucent figures. Obi-Wan Kenobi and Yoda are examples of characters who become Force ghosts."
+  },
+  {
+    "id": 39,
+    "name": "Hutts",
+    "description": "Hutts are a large, slug-like species known for their criminal empires and ruthless business practices. Jabba the Hutt is the most famous Hutt character in Star Wars."
+  },
+  {
+    "id": 40,
+    "name": "The Grand Inquisitor",
+    "description": "The Grand Inquisitor is a powerful Force user who serves the Empire during the time of the Jedi Purge. He leads a group of Inquisitors tasked with hunting down and eliminating Jedi survivors."
+  },
+  {
+    "id": 41,
+    "name": "Clone Trooper",
+    "description": "Clone troopers are genetically identical soldiers created by the Kaminoans for the Republic Army. They played a crucial role in the Clone Wars but were ultimately betrayed by the Empire during Order 66. Well-known clone troopers include Captain Rex and Commander Cody."
+  },
+  {
+    "id": 42,
+    "name": "Kamino",
+    "description": "Kamino is an isolated planet known for its advanced cloning facilities. The Kaminoans, a race of tall, slender beings, were commissioned by the Republic to create the clone army used during the Clone Wars."
+  },
+  {
+    "id": 43,
+    "name": "Order 66",
+    "description": "Order 66 is a top-secret command issued by Emperor Palpatine during the Clone Wars. It transformed clone troopers from protectors of the Jedi into ruthless assassins tasked with eliminating them. Order 66 effectively crippled the Jedi Order."
+  },
+  {
+    "id": 44,
+    "name": "Kashyyyk",
+    "description": "Kashyyyk is the wookiee homeworld, a densely forested planet covered in massive trees. Chewbacca hails from Kashyyyk, and the planet plays a significant role in the Clone Wars as the wookiees are enlisted by the Republic."
+  },
+  {
+    "id": 45,
+    "name": "Battle Droid",
+    "description": "Battle droids are droid soldiers used by the Separatist movement during the Clone Wars. These droids are mass-produced and expendable, but their vast numbers can overwhelm clone troopers if not countered with effective tactics."
+  },
+  {
+    "id": 46,
+    "name": "Wookieepedia",
+    "description": "Wookieepedia is a fictional in-universe database containing information about the Star Wars galaxy. It serves as a reference point for many characters throughout the saga and is a nod to Wikipedia, the real-world online encyclopedia."
+  },
+  {
+    "id": 47,
+    "name": "Mandalorian Beskar",
+    "description": "Mandalorian beskar is a highly prized metal renowned for its durability and resistance to lightsaber blades. Mandalorian armor is typically crafted from beskar, providing Mandalorians with exceptional protection in combat."
+  },
+  {
+    "id": 48,
+    "name": "Corellian Corvette",
+    "description": "Corellian corvettes are versatile starships produced by the Corellian Engineering Corporation. These corvettes are used by various factions throughout the Star Wars universe, including the Rebel Alliance and the New Republic."
+  },
+  {
+    "id": 49,
+    "name": "The Outer Rim",
+    "description": "The Outer Rim Territories are a lawless region on the periphery of the galaxy. It is a haven for smugglers, bounty hunters, and other fringe elements. Tatooine and Han Solo are well-known examples associated with the Outer Rim."
+  },
+  {
+    "id": 50,
+    "name": "Lightsaber Forms",
+    "description": "Lightsaber forms are distinct fighting styles developed by the Jedi and Sith over millennia. These forms emphasize different philosophies and techniques of lightsaber combat. There are seven main forms, each with its strengths and weaknesses."
   }
 ]
